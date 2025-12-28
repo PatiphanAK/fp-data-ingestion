@@ -1,0 +1,26 @@
+# ===== sbt =====
+target/
+project/target/
+project/project/
+
+# ===== Scala =====
+*.class
+*.tasty
+
+# ===== Metals / IDE =====
+.metals/
+.bloop/
+.vscode/
+.idea/
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Temporary files =====
+*.tmp
+*.swp
