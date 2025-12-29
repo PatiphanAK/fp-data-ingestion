@@ -1,11 +1,9 @@
-# ===== sbt =====
+# Scala & SBT
 target/
 project/target/
 project/project/
-
-# ===== Scala =====
-*.class
-*.tasty
+.bsp/
+.scala-build/
 
 # ===== Metals / IDE =====
 .metals/
