@@ -15,7 +15,7 @@ run / fork := true
 run / javaOptions ++= Seq(
   "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
   "--add-opens=java.base/java.nio=ALL-UNNAMED",
-  "-Dlog4j.configuration=log4j2.properties"  // เพิ่มบรรทัดนี้
+  "-Dlog4j.configuration=log4j2.properties"
 )
 
 run / outputStrategy := Some(StdoutOutput)
